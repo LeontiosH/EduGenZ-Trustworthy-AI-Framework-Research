@@ -1,0 +1,6 @@
+variable,description,coding
+participant_id,Sequential repository row identifier; timestamps removed,R001-R087; not a participant identity
+institution,Institutional affiliation,AUTH=Aristotle University of Thessaloniki; DUTH=Democritus University of Thrace; UoI=University of Ioannina
+project_role,Relationship to EduGenZ,EGZ-M-EDU=education project members; EGZ-M-TECH=technology project members; EGZ-M-STU=student project members; STU=student nonmembers; T-STAFF=teaching staff nonmembers
+gender,Recorded self-reported gender category,Female; Male
+Q01-Q84,Item judgement; see item_dictionary.csv,0=non-relevant; 1=low importance; 2=medium importance; 3=high importance

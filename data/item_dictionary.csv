@@ -1,0 +1,85 @@
+item_id,requirement_code,requirement_name,subcategory_code,subcategory_source_code,subcategory_name,statement
+Q01,HAO,Human Agency and Oversight,HAA,HAA,Human Agency and Autonomy,"Incorporate a process where end-users and/or subjects are adequately made aware that an AI-system influenced the decision, content, advice or outcome."
+Q02,HAO,Human Agency and Oversight,HAA,HAA,Human Agency and Autonomy,Ensure that the end-users or subjects are adequately informed that they are interacting with an AI system.
+Q03,HAO,Human Agency and Oversight,HAA,HAA,Human Agency and Autonomy,Put in place procedures to avoid that end users over-relying on the AI system.
+Q04,HAO,Human Agency and Oversight,HAA,HAA,Human Agency and Autonomy,Put in place any procedure to avoid that the system inadvertently affects human autonomy.
+Q05,HAO,Human Agency and Oversight,HAA,HAA,Human Agency and Autonomy,"Take measures to deal with the possible negative consequences for end-users or subjects in case they develop attachment. In particular, provide means for the user to have control of the interactions."
+Q06,HAO,Human Agency and Oversight,HAA,HAA,Human Agency and Autonomy,Take measures to minimize the risk of addiction by involving experts from other disciplines such as psychology and social work.
+Q07,HAO,Human Agency and Oversight,HAA,HAA,Human Agency and Autonomy,"Take measures to mitigate the risk of manipulation, including providing clear information about ownership and aims of the system, avoiding unjustified surveillance, and preserving autonomy and mental health of users."
+Q08,HAO,Human Agency and Oversight,HO,HO,Human Oversight,"Give specific training to humans (human-in-the-loop, human-on-the-loop, human-in-command) on how to exercise oversight."
+Q09,HAO,Human Agency and Oversight,HO,HO,Human Oversight,Establish detection and response mechanisms in case the AI system generates undesirable adverse effects for the end-user or subject.
+Q10,HAO,Human Agency and Oversight,HO,HO,Human Oversight,Deploy a “stop button” or procedure to safely abort an operation when needed.
+Q11,HAO,Human Agency and Oversight,HO,HO,Human Oversight,Take oversight and control measures to reflect the self-learning or autonomous nature of the AI system
+Q12,TRS,Technical Robustness and Safety,RAS,RAS,Resilience to Attack and Security,Assess potential forms of attacks to which the AI system could be vulnerable.
+Q13,TRS,Technical Robustness and Safety,RAS,RAS,Resilience to Attack and Security,"Put in place measures to ensure the integrity, robustness and overall security of the AI system against potential attacks over its lifecycle."
+Q14,TRS,Technical Robustness and Safety,RAS,RAS,Resilience to Attack and Security,Red-team/pen test the system
+Q15,TRS,Technical Robustness and Safety,RAS,RAS,Resilience to Attack and Security,Inform users as soon as possible if some new threats are detected.
+Q16,TRS,Technical Robustness and Safety,GS,GS,General Safety,"Define risk, risk metrics and risk levels of the AI system in each specific use case."
+Q17,TRS,Technical Robustness and Safety,GS,GS,General Safety,"Identify the possible threats to the AI system (design faults, technical faults, environmental threats) and the possible resulting consequences."
+Q18,TRS,Technical Robustness and Safety,GS,GS,General Safety,"Assess the risk of possible malicious use, misuse or inappropriate use of the AI system."
+Q19,TRS,Technical Robustness and Safety,GS,GS,General Safety,Assess the dependency of critical system’s decisions on its stable and reliable behaviour.
+Q20,TRS,Technical Robustness and Safety,GS,GS,General Safety,"Plan fault tolerance via, e.g., a duplicated system or another parallel system (AI-based or “conventional”)."
+Q21,TRS,Technical Robustness and Safety,GS,GS,General Safety,Develop a mechanism to evaluate when the AI system has been changed enough to merit a new review of its technical robustness and safety.
+Q22,TRS,Technical Robustness and Safety,A,A,Accuracy,"Put in place measures to ensure that the data (including training data) used to develop the AI system is up to date, of high quality, complete and representative of the environment the system will be deployed in."
+Q23,TRS,Technical Robustness and Safety,A,A,Accuracy,Put in place a series of steps to monitor and document the AI system’s accuracy.
+Q24,TRS,Technical Robustness and Safety,A,A,Accuracy,"Consider whether the AI system's operation can invalidate the data or assumptions it was trained on, and how this might lead to adversarial effects (e.g. biased estimators, echo chambers etc.)"
+Q25,TRS,Technical Robustness and Safety,A,A,Accuracy,Put in place processes to ensure that the level of accuracy of the AI system to be expected by end-users and/or subjects is properly communicated.
+Q26,TRS,Technical Robustness and Safety,RFPR,PFPR,"Reliability, Fall-back Plans and Reproducibility",Put in place a well-defined process to monitor if the AI system is meeting the goals of the intended applications.
+Q27,TRS,Technical Robustness and Safety,RFPR,PFPR,"Reliability, Fall-back Plans and Reproducibility",Test whether specific contexts or conditions need to be taken into account to ensure reproducibility.
+Q28,TRS,Technical Robustness and Safety,RFPR,PFPR,"Reliability, Fall-back Plans and Reproducibility","Put in place verification and validation methods and documentation (e.g., logging) to evaluate and ensure different aspects of the system’s reliability and reproducibility."
+Q29,TRS,Technical Robustness and Safety,RFPR,PFPR,"Reliability, Fall-back Plans and Reproducibility",Clearly document and operationalize processes for the testing and verification of the reliability and reproducibility of the AI system.
+Q30,TRS,Technical Robustness and Safety,RFPR,PFPR,"Reliability, Fall-back Plans and Reproducibility",Define tested failsafe fallback plans to address AI system errors of whatever origin and put governance procedures in place to trigger them.
+Q31,TRS,Technical Robustness and Safety,RFPR,PFPR,"Reliability, Fall-back Plans and Reproducibility",Put in place a proper procedure for handling the cases where the AI system yields results with a low confidence score.
+Q32,TRS,Technical Robustness and Safety,RFPR,PFPR,"Reliability, Fall-back Plans and Reproducibility",Consider potential negative consequences from the AI system learning novel or unusual methods to score well on its objective function.
+Q33,PDG,Privacy and Data Governance,PR,PR,Privacy,"Take measures to consider the impact of the AI system on the right to privacy, the right to physical, mental and/or moral integrity and the right to data protection."
+Q34,PDG,Privacy and Data Governance,PR,PR,Privacy,Consider establishing mechanisms that allow flagging issues related to privacy or data protection concerning the AI system.
+Q35,PDG,Privacy and Data Governance,DG,DG,Data Governance,"When relevant, implement the right to withdraw consent, the right to object and the right to be forgotten in the AI system."
+Q36,PDG,Privacy and Data Governance,DG,DG,Data Governance,"Consider the privacy and data protection implications of data collected, generated or processed over the course of the AI system's lifecycle."
+Q37,PDG,Privacy and Data Governance,DG,DG,Data Governance,Consider the privacy and data protection implications of the AI system's non-personal training-data or other processed non-personal data.
+Q38,PDG,Privacy and Data Governance,DG,DG,Data Governance,"Whenever possible and relevant, align the AI-system with relevant standards (e.g. ISO, IEEE) or widely adopted protocols for (daily) data management and governance."
+Q39,TPR,Transparency,TRC,TRC,Traceability,Consider adopting measures to continuously assess the quality of the input data to the AI system.
+Q40,TPR,Transparency,TRC,TRC,Traceability,Consider adopting adequate logging practices in place to record the decision(s) or recommendation(s) of the AI system
+Q41,TPR,Transparency,EXP,EXP,Explainability,Consider explaining the decision adopted or suggested by the AI system to its end users.
+Q42,TPR,Transparency,EXP,EXP,Explainability,Consider continuously surveying the users to ask them whether they understand the decision(s) of the AI system.
+Q43,TPR,Transparency,COM,COM,Communication,"In case of interactive AI system, consider communicating to users that they are interacting with a machine."
+Q44,TPR,Transparency,COM,COM,Communication,"Establish mechanisms to inform users about the purpose, criteria and limitations of the decision(s) generated by the AI system"
+Q45,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,"Consider establishing a strategy or a set of procedures to avoid creating or reinforcing unfair bias in the AI system, both regarding the use of input data as well as for the algorithm design."
+Q46,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,Consider diversity and representativeness of end-users and/or subjects in the data.
+Q47,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,Test for specific target groups or problematic use cases.
+Q48,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,"Research and use publicly available technical tools, that are state-of-the-art, to improve your understanding of the data, model and performance."
+Q49,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,"Assess and put in place processes to test and monitor potential biases during the entire lifecycle of the AI system (e.g. biases due to possible limitations stemming from the composition of the used data sets (lack of diversity, non-representativeness)."
+Q50,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,Consider diversity and representativeness of end-users and/or subjects in the data.
+Q51,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,Put in place educational and awareness initiatives to help AI designers and AI developers be more aware of the possible bias they can inject in designing and developing the AI system.
+Q52,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,"Depending on the use case, ensure a mechanism that allows for the flagging of issues related to bias, discrimination or poor performance of the AI system."
+Q53,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,You should establish clear steps and ways of communicating on how and to whom such issues can be raised.
+Q54,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,"Identify the subjects that could potentially be (in)directly affected by the AI system, in addition to the (end)-users."
+Q55,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,Your definition of fairness should be commonly used and should be implemented in any phase of the process of setting up the AI system.
+Q56,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,Consider other definitions of fairness before choosing one.
+Q57,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,"Consult with the impacted communities about the correct definition of fairness, such as representatives of elderly persons or persons with disabilities."
+Q58,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,Ensure a quantitative analysis or metrics to measure and test the applied definition of fairness.
+Q59,DnDF,"Diversity, Non-Discrimination and Fairness",AUB,AUB,Avoidance of Unfair Bias,Establish mechanisms to ensure fairness in your AI system.
+Q60,DnDF,"Diversity, Non-Discrimination and Fairness",AUD,AUD,Accessibility and Universal Design,You should ensure that the AI system corresponds to the variety of preferences and abilities in society.
+Q61,DnDF,"Diversity, Non-Discrimination and Fairness",AUD,AUD,Accessibility and Universal Design,You should assess whether the AI system's user interface is usable by those with special needs or disabilities or those at risk of exclusion.
+Q62,DnDF,"Diversity, Non-Discrimination and Fairness",AUD,AUD,Accessibility and Universal Design,"You should ensure that Universal Design principles are taken into account during every step of the planning and development process, if applicable."
+Q63,DnDF,"Diversity, Non-Discrimination and Fairness",AUD,AUD,Accessibility and Universal Design,You should take the impact of the AI system on the potential end-users and/or subjects into account.
+Q64,DnDF,"Diversity, Non-Discrimination and Fairness",AUD,AUD,Accessibility and Universal Design,You should assess whether the team involved in building the AI system engaged with the possible target end-users and/or subjects.
+Q65,DnDF,"Diversity, Non-Discrimination and Fairness",AUD,AUD,Accessibility and Universal Design,You should assess whether there could be groups who might be disproportionately affected by the outcomes of the system.
+Q66,DnDF,"Diversity, Non-Discrimination and Fairness",AUD,AUD,Accessibility and Universal Design,You should assess the risk of the possible unfairness of the system onto the end-user's or subject's communities.
+Q67,DnDF,"Diversity, Non-Discrimination and Fairness",SP,SP,Stakeholder Participation,You should consider a mechanism to include the participation of the widest range of possible stakeholders in the AI system’s design and development.
+Q68,SEW,Societal and Environmental Well-Being,EWB,EWB,Environmental Well-Being,Consider the potential positive and negative impacts of your AI system on the environment and establish mechanisms to evaluate this impact.
+Q69,SEW,Societal and Environmental Well-Being,EWB,EWB,Environmental Well-Being,Define measures to reduce the environmental impact of your AI system’s lifecycle and participate in competitions for the development of AI solutions that tackle this problem.
+Q70,SEW,Societal and Environmental Well-Being,IWS,IWS,Impact on Work and Skills,"Inform and consult with the impacted workers and their representatives but also involve other stakeholders. Implement communication, education, and training at operational and management level."
+Q71,SEW,Societal and Environmental Well-Being,IWS,IWS,Impact on Work and Skills,Take measures to ensure that the work impacts of the AI system are well understood on the basis of an analysis of the work processes and the whole socio-technical system.
+Q72,SEW,Societal and Environmental Well-Being,IWS,IWS,Impact on Work and Skills,"Take measures to counteract de-skilling by means of continuous training, especially in areas sensitive in terms of safety and security."
+Q73,SEW,Societal and Environmental Well-Being,IWS,IWS,Impact on Work and Skills,Provide training opportunities and materials for re- and up-skilling measures.
+Q74,SEW,Societal and Environmental Well-Being,ISLD,ISLD,Impact on Society at Large or Democracy,"Assess the societal impact of the AI system’s use beyond the (end-)user and subject, such as potentially indirectly affected stakeholders or society at large."
+Q75,SEW,Societal and Environmental Well-Being,ISLD,ISLD,Impact on Society at Large or Democracy,Take actions to minimize potential societal harm of the AI system.
+Q76,SEW,Societal and Environmental Well-Being,ISLD,ISLD,Impact on Society at Large or Democracy,Take measures that ensure that the AI system does not negatively impact democracy.
+Q77,ACC,Accountability,AU,AU,Auditability,"Establish mechanisms that facilitate the AI system’s auditability (e.g. traceability of the development process, the sourcing of training data and the logging of the AI system’s processes, outcomes, positive and negative impact)."
+Q78,ACC,Accountability,AU,AU,Auditability,Ensure that the AI system can be audited by independent third parties.
+Q79,ACC,Accountability,RM,RM,Risk Management,Foresee any kind of external guidance or third-party auditing processes to oversee ethical concerns and accountability measures.
+Q80,ACC,Accountability,RM,RM,Risk Management,Organise risk training for developers and deployers to inform them about the potential legal framework applicable to the AI system.
+Q81,ACC,Accountability,RM,RM,Risk Management,"Establishing an AI ethics review board or a similar mechanism to discuss the overall accountability and ethics practices, including potential unclear grey areas."
+Q82,ACC,Accountability,RM,RM,Risk Management,Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI).
+Q83,ACC,Accountability,RM,RM,Risk Management,"Establish a process for third parties (e.g. suppliers, end-users, subjects, distributors/vendors or workers) to report potential vulnerabilities, risks or biases in the AI system."
+Q84,ACC,Accountability,RM,RM,Risk Management,Ensure that redress-by-design mechanisms are put in place for applications that can adversely affect individuals.

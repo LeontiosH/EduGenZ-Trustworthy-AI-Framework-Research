@@ -1,0 +1,101 @@
+{
+  "checked_files": 19,
+  "checks": [
+    {
+      "file": "descriptive/requirements.csv",
+      "rows": 7,
+      "status": "matches"
+    },
+    {
+      "file": "descriptive/sample_characteristics.csv",
+      "rows": 10,
+      "status": "matches"
+    },
+    {
+      "file": "descriptive/subcategories.csv",
+      "rows": 19,
+      "status": "matches"
+    },
+    {
+      "file": "nonparametric/fixed_design_rank_check.csv",
+      "rows": 26,
+      "status": "matches"
+    },
+    {
+      "file": "nonparametric/version12_nonparametric_audit.csv",
+      "rows": 26,
+      "status": "matches"
+    },
+    {
+      "file": "extended/PCA_requirement_loadings.csv",
+      "rows": 7,
+      "status": "matches"
+    },
+    {
+      "file": "extended/PCA_sensitivity.csv",
+      "rows": 4,
+      "status": "matches"
+    },
+    {
+      "file": "extended/relevance_importance_requirements.csv",
+      "rows": 7,
+      "status": "matches"
+    },
+    {
+      "file": "extended/relevance_importance_subcategories.csv",
+      "rows": 19,
+      "status": "matches"
+    },
+    {
+      "file": "extended/requirement_correlations.csv",
+      "rows": 21,
+      "status": "matches"
+    },
+    {
+      "file": "extended/tSNE_sensitivity.csv",
+      "rows": 9,
+      "status": "matches"
+    },
+    {
+      "file": "robustness/bootstrap_priorities.csv",
+      "rows": 7,
+      "status": "matches"
+    },
+    {
+      "file": "robustness/bootstrap_rank_frequencies.csv",
+      "rows": 59,
+      "status": "matches"
+    },
+    {
+      "file": "robustness/institution_profile_scores.csv",
+      "rows": 3,
+      "status": "matches"
+    },
+    {
+      "file": "robustness/requirement_scores_by_scenario.csv",
+      "rows": 11,
+      "status": "matches"
+    },
+    {
+      "file": "robustness/sensitivity_scenarios.csv",
+      "rows": 11,
+      "status": "matches"
+    },
+    {
+      "file": "students/student_rank_stability.csv",
+      "rows": 14,
+      "status": "matches"
+    },
+    {
+      "file": "students/student_relative_priorities.csv",
+      "rows": 14,
+      "status": "matches"
+    },
+    {
+      "file": "students/student_relevance_importance.csv",
+      "rows": 52,
+      "status": "matches"
+    }
+  ],
+  "scope": "Python numerical exports only. MATLAB mixed-effects reference coefficients were supplied, not refitted here."
+}
